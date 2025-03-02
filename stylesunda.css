@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.container-fluid a {
+    color: antiquewhite;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container {
+    padding-top: 80px;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container {
+    padding-top: 80px;
+}
+
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+.container {
+    width: 960px;
+    margin: 1px auto;
+    background-color: #fff;
+}
+
+.header {
+    padding: 50px;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.kampung {
+    height: 500px;
+    background-image: url(asset/rumah3.jpg);
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    width: 300px;
+    border-top: 3px solid gray;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.paragraf {
+    padding: 50px;
+}
+
+.paragraf {
+    padding: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+.paragraf p {
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 50px;
+    margin-top: -20px;
+}
+
+.kiri {
+    width: 400px;
+    float: left;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.kanan {
+    width: 400px;
+    float: right;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.kiri,
+.kanan {
+    flex: 1 1 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    min-width: 300px;
+}
+
+
+/* .kampung{
+    height: 500px;
+    background-image: url(urug.webp);
+    background-size: cover;
+} */
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    zoom: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: white;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .kiri,
+    .kanan {
+        width: 100%;
+    }
+
+    .paragraf {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .kampung {
+        height: 300px;
+        /* Kurangi tinggi gambar agar pas di layar kecil */
+    }
+}
